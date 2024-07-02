@@ -7,15 +7,15 @@ https://www.youtube.com/watch?v=m559BxR30ls
 
 ### High Level Design
 
-![image_info](./pictures/highlevel.png)
+![image1](./pictures/highlevel.png)
 
 ### Involve Entities
 
-![image_info](./pictures/entities.png)
+![image2](./pictures/entities.png)
 
 ### Category Endpoints
 
-![image_info](./pictures/category-endpoints.png)
+![image3](./pictures/category-endpoints.png)
 
 
 
