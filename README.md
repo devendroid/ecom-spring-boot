@@ -9,6 +9,16 @@ https://www.youtube.com/watch?v=m559BxR30ls
 
 ![image_info](./pictures/highlevel.png)
 
+### Involve Entities
+
+![image_info](./pictures/entities.png)
+
+### Category Endpoints
+
+![image_info](./pictures/category-endpoints.png)
+
+
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
