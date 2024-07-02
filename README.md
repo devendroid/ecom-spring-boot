@@ -4,6 +4,11 @@
 ### Reference
 https://www.youtube.com/watch?v=m559BxR30ls
 
+
+### High Level Design
+
+![image_info](./pictures/highlevel.png)
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
