@@ -2,7 +2,7 @@ package com.devs.ecom.service;
 
 import java.util.List;
 
-import com.devs.ecom.model.Category;
+import com.devs.ecom.entity.Category;
 
 public interface CategoryService {
 

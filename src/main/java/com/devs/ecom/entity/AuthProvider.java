@@ -1,4 +1,4 @@
-package com.devs.ecom.model;
+package com.devs.ecom.entity;
 
 public enum AuthProvider {
 
