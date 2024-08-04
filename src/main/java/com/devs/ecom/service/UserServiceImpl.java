@@ -16,11 +16,16 @@ public class UserServiceImpl implements UserService{
     private UserRepository userRepository;
 
     @Override
-    public List<User> allUsers() {
+    public List<User> getAllUsers() {
         List<User> users = new ArrayList<>();
 
         userRepository.findAll().forEach(users::add);
 
         return users;
+    }
+
+    @Override
+    public User getUser(String email) {
+        return userRepository.findByEmail(email).orElseThrow();
     }
 }

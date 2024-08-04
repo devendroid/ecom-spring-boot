@@ -11,6 +11,7 @@ import com.devs.ecom.dto.LoginRespDto;
 import com.devs.ecom.dto.UserLoginReqDto;
 import com.devs.ecom.dto.UserRegisterReqDto;
 import com.devs.ecom.entity.User;
+import com.devs.ecom.entity.UserPrincipal;
 import com.devs.ecom.service.AuthenticationService;
 import com.devs.ecom.service.JwtService;
 
@@ -38,7 +39,7 @@ public class AuthenticationController {
     public ResponseEntity<LoginRespDto> authenticate(@RequestBody UserLoginReqDto userLoginReqDto) {
         User authenticatedUser = authenticationService.authenticate(userLoginReqDto);
 
-        String jwtToken = jwtService.generateToken(authenticatedUser);
+        String jwtToken = jwtService.generateToken(new UserPrincipal(authenticatedUser));
 
         LoginRespDto loginResponse = new LoginRespDto().setToken(jwtToken).setExpiresIn(jwtService.getExpirationTime());
 

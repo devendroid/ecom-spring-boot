@@ -6,6 +6,8 @@ import com.devs.ecom.entity.User;
 
 public interface UserService {
 
-public List<User> allUsers(); 
+public List<User> getAllUsers(); 
+
+public User getUser(String email); 
 
 }
